@@ -1,0 +1,98 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ab {
+  position: absolute;
+}
+#musicBtn {
+  position: absolute;
+  width: 40px;
+  z-index: 9999;
+  top: 10px;
+  right: 10px;
+}
+#swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#swiper .swiper-slide {
+  position: relative;
+  width: 100%;
+}
+#swiper .swiper-slide .bg {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.72);
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper-slide span {
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  display: inline-block;
+  border-width: 0px 50px 50px 0px;
+  border-style: none solid solid;
+  border-color: transparent transparent rgba(255, 255, 255, 0.72);
+}
+#swiper .swiper-slide h2 {
+  font-size: 22px;
+  z-index: 99;
+  font-weight: 100;
+}
+#swiper .swiper-slide h2:first-child {
+  position: absolute;
+  left: 33%;
+  top: 20%;
+  color: white;
+}
+#swiper .swiper-slide h2:nth-child(2) {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  color: white;
+}
+#swiper .swiper-slide h2:nth-child(3) {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  color: white;
+}
+#swiper .swiper-slide h2:nth-child(4) {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  color: white;
+}
+#swiper .swiper-slide h2:nth-child(5) {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  color: white;
+}
+#swiper .swiper-slide h2:nth-child(6) {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  color: white;
+}
+#swiper .swiper-slide:first-child{
+    background: url(../../libs/weixin/images/lightOffBg.jpg);
+}
+#swiper .swiper-slide:nth-child(2){
+    background: url(../../libs/weixin/images/earlyBg.jpg);
+}
+#swiper .swiper-slide:nth-child(3){
+    background: url(../../libs/weixin/images/runBg.jpg);
+}
+#swiper #two h2{
+	left:5%;font-size:22px;
+}
+#swiper #two h2:first-child{
+	left:33%;font-size: 26px;
+}
+
+/*# sourceMappingURL=main.css.map */
